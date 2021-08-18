@@ -2,9 +2,43 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 h1,h2,h3,h4,h5,h6{
     color: black;
 }
 p{
     color: red;
+}
+.wrapper-red, .wrapper-yellow,.wrapper-purple{
+    width: 100%;
+    height: 300px;   
+}
+.wrapper-red  h1, .wrapper-purple h1, .wrapper-yellow h1{
+    text-align: center;
+    line-height: 300px;
+    text-transform: uppercase;
+}
+.wrapper-red  h1, .wrapper-purple h1{
+    color: #fff;
+    
+}
+.wrapper-yellow h1{
+    color: #000;
+}
+.wrapper-red{
+    background-color: red;
+
+}
+.wrapper-yellow{
+    background-color: yellow;
+}
+.wrapper-purple{
+    background-color: purple;
+}
+@media only screen and (max-width:600px){
+    .wrapper-red, .wrapper-yellow,.wrapper-purple{
+        margin-top: 15px;
+    }
 }
