@@ -1,0 +1,1 @@
+var red = document.getElementsByClassName("wrapper-red");
